@@ -1,0 +1,623 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+	<link href="assets/bookstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+	<script src="assets/js/jquery-3.5.1.js"></script>
+    <style type="text/css">
+    body,td,th {
+	font-weight: 400;
+}
+    </style>
+    
+</head>
+
+<body>
+	<canvas id="canvas" width="1920" height="950"></canvas>
+	<style>canvas {display: block;position: relative;zindex: 1;pointer-events: none;position: fixed;top: 0;}</style>
+	<script src="assets/js/background.js"></script>
+    <div class="offcanvas_overlay">
+
+    </div>
+    <div class="offcanvas_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="canvas_open">
+                        <a href="#"><i class="zmdi zmdi-menu"></i></a>
+                    </div>
+                    <div class="offcanvas_menu_wrapper">
+                        <div class="canvas_close">
+                            <a href="#"><i class="zmdi zmdi-close"></i></a>
+                        </div>
+                        <div class="welcome_text text-center mb-10">
+                            <p><span>Customer Service: </span>  123 456 789</p>
+                        </div>
+                        <div class="offcanvas-search-container mb-40">
+                            <form action="#">
+                                <div class="search_box">
+                                    <input placeholder="请输入搜索关键字" type="text">
+                                    <button type="submit">搜索</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="offcanvas_menu_cover text-left">
+                            <ul class="offcanvas_main_menu">
+                                <li class="menu-item-has-children active">
+                                    <a href="index.html">首页</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">新品特惠</a></li>
+										<li><a href="#">本周精选</a></li>
+										<li><a href="#">新书速递</a></li>
+										<li><a href="#">读者热评</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">
+										<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+												&nbsp;今日值得买
+									</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item-has-children">
+                                            <a href="#">古典文学</a>
+                                            <ul class="sub-menu">
+												<li><a href="#">《道德形而上学的奠基》</a></li>
+												<li><a href="#">《文献学论述辑要》</a></li>
+												<li><a href="#">《中国古代文学思潮论》</a></li>
+												<li><a href="#">《汉语词类》 </a></li>
+												<li><a href="#"> 《中国文学概论》</a></li>
+												<li><a href="#">《新刻牡丹亭还魂记》</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">网络文学</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">《雪中悍刀行》</a></li>
+												<li><a href="#">《蛊真人》</a></li>
+												<li><a href="#">《神秘复苏》</a></li>
+												<li><a href="#">《从前有座灵剑山》</a></li>
+												<li><a href="#">《崩坏星河》</a></li>
+												<li><a href="#">《疯巫妖的实验日志》</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">艺术赏析</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">《消失的艺术》</a></li>
+												<li><a href="#">《明代哲学史》</a></li>
+												<li><a href="#">《无风之树》</a></li>
+												<li><a href="#">《风月宝鉴》</a></li>
+												<li><a href="#">《烟火》</a></li>
+												<li><a href="#">《宝积经》</a></li>
+                                            </ul>
+                                        </li>
+										<li class="menu-item-has-children">
+                                            <a href="#">时政要闻</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">《台湾这些年所知道的祖国》</a></li>
+												<li><a href="#">《论共产党员的修养》</a></li>
+												<li><a href="#">《中国共产党章程》</a></li>
+												<li><a href="#">《毛泽东选集》</a></li>
+												<li><a href="#">《习近平谈治国理论》</a></li>
+												<li><a href="#">《邓小平党内民主思想研究》</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="star.html">
+										<span class="glyphicon glyphicon-star" aria-hidden="true"></span>五星好评
+									</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item-has-children">
+                                            <a href="star.html#literture">文学</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="star.html#literture">《唐诗三百首》</a></li>
+												<li><a href="star.html#literture">《百花散文书系》</a></li>
+												<li><a href="star.html#literture">《文心雕龙注》</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="star.html#novel">小说</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="star.html#novel">《草莽英雄》</a></li>
+												<li><a href="star.html#novel">《白鹿原》</a></li>
+												<li><a href="star.html#novel">《房思琪的初恋乐园》</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="star.html#young">青春文学</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="star.html#young">《杉杉来迟》</a></li>
+												<li><a href="star.html#young">《光之初》</a></li>
+												<li><a href="star.html#young">《反骨仔》</a></li>
+												<li><a href="star.html#young">《我与世界只差一个你》</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="star.html#cartoon">漫画 | 幽默</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="star.html#cartoon">《永不消逝的电波》</a></li>
+												<li><a href="star.html#cartoon">《我这一辈子》</a></li>
+												<li><a href="star.html#cartoon">《红孩子》</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="list.html">畅销榜 </a>
+                                    <ul class="sub-menu">
+                                        <li><a href="list.html">《中国人的修养》</a></li>
+										<li><a href="list.html">《蝴蝶》</a></li>
+										<li><a href="list.html">《局外人》</a></li>
+										<li><a href="list.html">《我们时代的神经症人格》</a></li>
+										<li><a href="list.html">《我是猫》</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="about.html">关于我们</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="index.html"> 联系我们</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-area">
+        <div class="header-menu header-bottom-area theme-bg sticker">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="categoryes-menu-bar">
+                            <div class="categoryes-menu-btn category-toggle">
+                                <div class="float-left">
+                                    <a href="#">所有种类&nbsp;&nbsp;
+										<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+									</a>
+                                </div>
+                            </div>
+                            <nav class="categorye-menus category-dropdown" style="display: none">
+                                <ul class="categories-expand">
+                                    <li class="categories-hover-right">
+                                        <a href="#">文学 <i class="fa fa-angle-right float-right"></i></a>
+                                        <ul class="cat-submenu category-mega">
+                                            <li class="cat-mega-title"><a href="#">小说</a>
+                                                <ul>
+                                                    <li><a href="#">外国小说</a></li>
+                                                    <li><a href="#">中国当代小说</a></li>
+                                                    <li><a href="#">中国古典小说</a></li>
+                                                    <li><a href="#">科幻小说</a></li>
+                                                    <li><a href="#">悬疑推理</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="cat-mega-title"><a href="#">文学</a>
+                                                <ul>
+                                                    <li><a href="#">外国诗歌</a></li>
+                                                    <li><a href="#">中国现当代古诗词</a></li>
+                                                    <li><a href="#">中国古代散文</a></li>
+                                                    <li><a href="#">文集</a></li>
+                                                    <li><a href="#">戏剧</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="cat-mega-title"><a href="#">青春文学</a>
+                                                <ul>
+                                                    <li><a href="#">悬疑|推理</a></li>
+                                                    <li><a href="#">爆笑|无厘头</a></li>
+                                                    <li><a href="#">叛逆|成长</a></li>
+                                                    <li><a href="#">港台青春文学</a></li>
+                                                    <li><a href="#">校园</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="categories-hover-right">
+                                        <a href="#">少儿 <i class="fa fa-angle-right float-right"></i></a>
+                                        <ul class="cat-submenu category-mega">
+                                            <li class="cat-mega-title"><a href="#">儿童文学</a>
+                                                <ul>
+                                                    <li><a href="#">中国儿童文学</a></li>
+                                                    <li><a href="#">外国儿童文学</a></li>
+                                                    <li><a href="#">寓言传说</a></li>
+                                                    <li><a href="#">童话</a></li>
+                                                    <li><a href="#">小说</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="cat-mega-title"><a href="#">科普百科</a>
+                                                <ul>
+                                                    <li><a href="#">科普</a></li>
+                                                    <li><a href="#">百科</a></li>
+                                                    <li><a href="#">历史读物</a></li>
+                                                    <li><a href="#">生活常识</a></li>
+                                                    <li><a href="#">益智游戏</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="cat-mega-title"><a href="#">年龄馆</a>
+                                                <ul>
+                                                    <li><a href="#">0~2岁</a></li>
+                                                    <li><a href="#">3~6岁</a></li>
+                                                    <li><a href="#">7岁及以上</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="categories-hover-right">
+                                        <a href="#">文教 <i class="fa fa-angle-right float-right"></i></a>
+                                        <ul class="cat-submenu category-mega">
+                                            <li class="cat-mega-title"><a href="#">中小学教辅</a>
+                                                <ul>
+                                                    <li><a href="#">语文阅读</a></li>
+                                                    <li><a href="#">拓展读物</a></li>
+                                                    <li><a href="#">高考</a></li>
+                                                    <li><a href="#">工具书</a></li>
+                                                    <li><a href="#">教师用书</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="cat-mega-title"><a href="#">外语</a>
+                                                <ul>
+                                                    <li><a href="#">英语读物</a></li>
+                                                    <li><a href="#">职业英语</a></li>
+                                                    <li><a href="#">大学英语</a></li>
+                                                    <li><a href="#">英语考试</a></li>
+                                                    <li><a href="#">少儿英语</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="cat-mega-title"><a href="#">计算机</a>
+                                                <ul>
+                                                    <li><a href="#">操作系统|系统开发</a></li>
+                                                    <li><a href="#">数据库</a></li>
+                                                    <li><a href="#">人工智能</a></li>
+                                                    <li><a href="#">计算机体系理论</a></li>
+                                                    <li><a href="#">软件工程|开发项目管理</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children active"><span class="menu-expand"><i class="fa fa-angle-down"></i></span>
+                                        <a href="#">文学</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item-has-children"><span class="menu-expand"><i class="fa fa-angle-down"></i></span>
+                                                <a href="#">小说</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">外国小说</a></li>
+                                                    <li><a href="#">中国当代小说</a></li>
+                                                    <li><a href="#">中国古典小说</a></li>
+                                                    <li><a href="#">科幻小说</a></li>
+                                                    <li><a href="#">悬疑推理</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><span class="menu-expand"><i class="fa fa-angle-down"></i></span>
+                                                <a href="#">文学</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">外国诗歌</a></li>
+                                                    <li><a href="#">中国现当代古诗词</a></li>
+                                                    <li><a href="#">中国古代散文</a></li>
+                                                    <li><a href="#">文集</a></li>
+                                                    <li><a href="#">戏剧</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><span class="menu-expand"><i class="fa fa-angle-down"></i></span>
+                                                <a href="#">青春文学</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">悬疑|推理</a></li>
+                                                    <li><a href="#">爆笑|无厘头</a></li>
+                                                    <li><a href="#">叛逆|成长</a></li>
+                                                    <li><a href="#">港台青春文学</a></li>
+                                                    <li><a href="#">校园</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><span class="menu-expand"><i class="fa fa-angle-down"></i></span>
+                                        <a href="#">少儿</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item-has-children"><span class="menu-expand"><i class="fa fa-angle-down"></i></span>
+                                                <a href="#">儿童文学</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">中国儿童文学</a></li>
+                                                    <li><a href="#">外国儿童文学</a></li>
+                                                    <li><a href="#">寓言传说</a></li>
+                                                    <li><a href="#">童话</a></li>
+                                                    <li><a href="#">小说</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><span class="menu-expand"><i class="fa fa-angle-down"></i></span>
+                                                <a href="#">科普百科</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">科普</a></li>
+                                                    <li><a href="#">百科</a></li>
+                                                    <li><a href="#">历史读物</a></li>
+                                                    <li><a href="#">生活常识</a></li>
+                                                    <li><a href="#">益智游戏</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><span class="menu-expand"><i class="fa fa-angle-down"></i></span>
+                                                <a href="#">年龄馆</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">0~2岁</a></li>
+                                                    <li><a href="#">3~6岁</a></li>
+                                                    <li><a href="#">7岁及以上</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><span class="menu-expand"><i class="fa fa-angle-down"></i></span>
+                                        <a href="#">文教</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item-has-children"><span class="menu-expand"><i class="fa fa-angle-down"></i></span>
+                                                <a href="#">中小学教辅</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">语文阅读</a></li>
+                                                    <li><a href="#">拓展读物</a></li>
+                                                    <li><a href="#">高考</a></li>
+                                                    <li><a href="#">工具书</a></li>
+                                                    <li><a href="#">教师用书</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><span class="menu-expand"><i class="fa fa-angle-down"></i></span>
+                                                <a href="#">外语</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">英语读物</a></li>
+                                                    <li><a href="#">职业英语</a></li>
+                                                    <li><a href="#">大学英语</a></li>
+                                                    <li><a href="#">英语考试</a></li>
+                                                    <li><a href="#">少儿英语</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><span class="menu-expand"><i class="fa fa-angle-down"></i></span>
+                                                <a href="#">计算机</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">操作系统|系统开发</a></li>
+                                                    <li><a href="#">数据库</a></li>
+                                                    <li><a href="#">人工智能</a></li>
+                                                    <li><a href="#">计算机体系理论</a></li>
+                                                    <li><a href="#">软件工程|开发项目管理</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">社会科学</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">艺术与生活</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">健康饮食</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">产后护理</a>
+                                    </li>
+                                    <li>
+                                        <a href="travel.html">旅行日志</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">家居休闲</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">人文欣赏</a>
+                                    </li>
+									<li>
+                                        <a href="#">技能培养</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <!-- Main Menu Start -->
+                        <div class="header-menu add-sticky">
+                            <div class="sticky-container">
+                                <nav class="main-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">首页 
+												<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+											</a>
+                                            <ul class="dropdown dropdown-width">
+                                                <li><a href="#">新品特惠</a></li>
+                                                <li><a href="#">本周精选</a></li>
+                                                <li><a href="#">新书速递</a></li>
+												<li><a href="#">读者热评</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+												<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+												&nbsp;今日值得买&nbsp;&nbsp;
+												<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                                            <div class="mega-menu dropdown">
+                                                <ul class="mega-menu-inner d-flex">
+                                                    <li>
+                                                        <a href="">古典文学</a>
+                                                        <ul>
+                                                            <li><a href="#">《道德形而上学的奠基》</a></li>
+                                                            <li><a href="#">《文献学论述辑要》</a></li>
+                                                            <li><a href="#">《中国古代文学思潮论》</a></li>
+                                                            <li><a href="#">《汉语词类》 </a></li>
+                                                            <li><a href="#"> 《中国文学概论》</a></li>
+                                                            <li><a href="#">《新刻牡丹亭还魂记》</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="">网络文学</a>
+                                                        <ul>
+                                                            <li><a href="#">《雪中悍刀行》</a></li>
+                                                            <li><a href="#">《蛊真人》</a></li>
+                                                            <li><a href="#">《神秘复苏》</a></li>
+                                                            <li><a href="#">《从前有座灵剑山》</a></li>
+                                                            <li><a href="#">《崩坏星河》</a></li>
+                                                            <li><a href="#">《疯巫妖的实验日志》</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="">艺术赏析</a>
+                                                        <ul>
+                                                            <li><a href="#">《消失的艺术》</a></li>
+                                                            <li><a href="#">《明代哲学史》</a></li>
+                                                            <li><a href="#">《无风之树》</a></li>
+                                                            <li><a href="#">《风月宝鉴》</a></li>
+                                                            <li><a href="#">《烟火》</a></li>
+                                                            <li><a href="#">《宝积经》</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="">时政要闻</a>
+                                                        <ul>
+                                                            <li><a href="#">《台湾这些年所知道的祖国》</a></li>
+                                                            <li><a href="#">《论共产党员的修养》</a></li>
+                                                            <li><a href="#">《中国共产党章程》</a></li>
+                                                            <li><a href="#">《毛泽东选集》</a></li>
+                                                            <li><a href="#">《习近平谈治国理论》</a></li>
+                                                            <li><a href="#">《邓小平党内民主思想研究》</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <div class="mega-menu-banner mt-30">
+                                                    <a href="index.html">
+														<img src="assets/images/picture1.webp" alt="">
+													</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="star.html">
+												<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+												五星好评&nbsp;&nbsp;
+												<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+											</a>
+                                            <ul class="dropdown dropdown-width">
+                                                <li>
+                                                    <a href="star.html#literture">文学<i class="fa fa-angle-right float-right"></i></a>
+                                                    <ul class="sub-dropdown dropdown dropdown-width">
+                                                        <li><a href="star.html#literture">《唐诗三百首》</a></li>
+                                                        <li><a href="star.html#literture">《百花散文书系》</a></li>
+                                                        <li><a href="star.html#literture">《文心雕龙注》</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="star.html#novel">小说<i class="fa fa-angle-right float-right"></i></a>
+                                                    <ul class="sub-dropdown dropdown dropdown-width">
+                                                        <li><a href="star.html#novel">《草莽英雄》</a></li>
+                                                        <li><a href="star.html#novel">《白鹿原》</a></li>
+                                                        <li><a href="star.html#novel">《房思琪的初恋乐园》</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="star.html#young">青春文学<i class="fa fa-angle-right float-right"></i></a>
+                                                    <ul class="sub-dropdown dropdown dropdown-width">
+                                                        <li><a href="star.html#young">《杉杉来迟》</a></li>
+                                                        <li><a href="star.html#young">《光之初》</a></li>
+                                                        <li><a href="star.html#young">《反骨仔》</a></li>
+														<li><a href="star.html#young">《我与世界只差一个你》</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="star.html#cartoon">漫画 | 幽默<i class="fa fa-angle-right float-right"></i></a>
+                                                    <ul class="sub-dropdown dropdown dropdown-width">
+                                                        <li><a href="star.html#cartoon">《永不消逝的电波》</a></li>
+                                                        <li><a href="star.html#cartoon">《我这一辈子》</a></li>
+                                                        <li><a href="star.html#cartoon">《红孩子》</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="list.html">
+												畅销榜&nbsp;&nbsp;
+												<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+											</a>
+                                            <ul class="dropdown dropdown-width">
+                                                <li><a href="list.html">《中国人的修养》</a></li>
+                                                <li><a href="list.html">《蝴蝶》</a></li>
+                                                <li><a href="list.html">《局外人》</a></li>
+                                                <li><a href="list.html">《我们时代的神经症人格》</a></li>
+                                                <li><a href="list.html">《我是猫》</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="about.html">关于我们</a></li>
+                                        <li>
+											<a href="index.html"><span class="glyphicon glyphicon-phone-alt"></span>
+												联系我们
+											</a>
+										</li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- Main Menu End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+    <div class="slider_section mb-60">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="register-area login-area mt-25">
+        <div class="container">
+            <div class="row">
+                <div class="offset-lg-3 col-lg-6">
+                    <div class="checkout_info mb-20">
+                        <form class="form-row" action="#">
+                            <h5 class="last-title mb-10 text-center">注册新用户</h5>
+                            <div class="col-lg-12 text-left mb-20">
+                                <p class="register-page"> 已有账号？ <a href="login.html">点击登录</a></p>
+                            </div>
+                            <div class="form_group col-12">
+                                <label class="form-label">用户名 <span>*</span></label>
+                                <input class="input-form" type="text">
+                            </div>
+                            <div class="form_group col-12">
+                                <label class="form-label">邮箱地址 <span>*</span></label>
+                                <input class="input-form" type="text">
+                            </div>
+                            <div class="form_group col-12">
+                                <label class="form-label">密码 <span>*</span></label>
+                                <input class="input-form input-login" type="text">
+                                <button class="show-btn">显示</button>
+                            </div>
+                            <div class="form_group col-12">
+                                <label class="form-label">再次输入密码 <span>*</span></label>
+                                <input class="input-form input-login" type="text">
+                                <button class="show-btn">显示</button>
+                            </div>
+                            <div class="form_group col-12 position-relative">
+                                <label class="form-label">出生年月（可选）</label>
+                                <input class="input-form" type="data">
+                            </div>
+                            <div class="form-row mt-20">
+                                <input type="submit" class="btn-secondary" value="注册">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="assets/js/vendor/vendor.min.js"></script>
+<script src="assets/js/plugins/plugins.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>

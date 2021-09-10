@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin: 0;padding: 0;}
+ul{margin: 0;padding: 0; list-style: none;}
+a{text-decoration: none;}
+h3,p{margin: 0;font-weight: normal;}
+.main_box{
+	width: 100%;
+	position: relative;
+}
+.box{
+	width: 1300px;
+	margin: 10px auto;
+	padding: 15px;
+}
+.box ul li{
+	width: 200px;
+	height: 450px;
+	box-shadow: 3px 2px 30px rgba(0,0,0,.1);
+	float: left;
+	text-align: left;
+	position: relative;
+	transition: all .6s ease-out;
+}
+.box ul li h3{
+	padding-top: 30px;
+	color: #3BE7B5;
+	font-size: 16px;
+}
+.box ul li p{
+	margin-top: 7px;
+	color: #666;
+	font-size: 10px;
+}
+.box ul li img{
+	width: 120px;
+	height: 150px;
+	position: absolute;
+	right: 26px;
+	bottom: 40px;
+	transition: all .6s ease-out;
+}
+.box ul .on{
+	width: 450px;
+	height: 450px;
+	background-color: #3288e6;
+	text-align: left;
+	opacity: 0.7;
+}
+.box ul .on h3{
+	font-size: 24px;
+	padding-left: 20px;
+	color: #39EADA;
+}
+.box ul .on p{
+	margin-left: 20px;
+	font-size: 16px;
+	color: #FFF;
+}
+.box ul .on img{
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
